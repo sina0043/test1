@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript"/>
+    <meta name="description" content="Free Web tutorials"/>
+    <meta name="author" content="sina naseri"/>
+    <meta http-equiv="refresh" content="30000"/>
+    <title>Page title</title>
+    <link rel="icon" type="image/x-icon" href="../image/avatar_smoke.jpg"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+    </style>
+    <link rel="stylesheet" href="../example/w3.css">                           <!-- w3.css -->
+</head>
+<body>
+  <div style="max-width: 1500px;">
+
+    <!-- sidebar -->
+    <div class="w3-hide-large w3-card-4" >
+        <div class=" w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left " id="mySidebar" style="width: 300px;" >
+            <div class="">    
+                <div class="w3-container">
+                    <button href="#" onclick="w3_close()" class="w3-hide-large w3-button w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu" style="margin-top: 30px;"> <i class="fa fa-remove"></i></button>
+                    <img src="../image/171.jpg" alt="fywgy" class="w3-round-medium" style="width: 130px; height: 130px;margin-top: 30px;margin-bottom: 30px;">
+                    <h3>PORTFOLIO</h3>
+                    <p class="w3-opacity">Template by Sina Naseri</p>
+                </div>    
+                <a href="#a" class="w3-block w3-button w3-text-teal  "><span class="w3-left"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</span></a> 
+                <a href="#b" class="w3-block w3-button   "><span class="w3-left"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</span></a> 
+                <a href="#c" class="w3-block w3-button   "><span class="w3-left"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</span></a> 
+                <div class="w3-panel w3-large">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-snapchat w3-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                    <i class="fa fa-twitter w3-hover-opacity"></i>
+                    <i class="fa fa-linkedin w3-hover-opacity"></i>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <div class="w3-row">
+        <div class="w3-hide-medium w3-hide-small w3-sidebar w3-animate-left" style="width: 300px;">
+            <div class="w3-container" >
+                <img src="../image/171.jpg" alt="fywgy" class="w3-round-medium" style="width: 130px; height: 130px;margin-top: 30px;margin-bottom: 30px;">
+                <h3 >PORTFOLIO</h3>
+                <p class="w3-opacity">Template by Sina Naseri</p>
+            </div>    
+            <a href="#a" class="w3-block w3-button w3-text-teal  "><span class="w3-left"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</span></a> 
+            <a href="#b" class="w3-block w3-button   "><span class="w3-left"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</span></a> 
+            <a href="#c" class="w3-block w3-button   "><span class="w3-left"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</span></a> 
+            <div class="w3-panel w3-large">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div >
+        </div>
+
+
+
+
+        <div class="w3-main w3-light-grey" style="margin-left: 300px;">
+            <div class="w3-row w3-hide-large">
+                <button class="w3-button w3-xxlarge " onclick="w3_open()">&#9776;</button>
+                <img src="../image/171.jpg" alt="ftgy" class="w3-circle w3-right w3-margin" style="width: 60px;">
+            </div>
+            <div class="w3-container">
+                <h1 id="a">My Portfolio</h1>
+                <span style="margin-right: 20px;">Filter:</span>
+                <a href="#" class="w3-button w3-black">ALL</a>
+                <a href="#" class="w3-button w3-white"> <i class="fa fa-diamond w3-margin-right"></i>Design</a>
+                <a href="#" class="w3-button w3-white w3-hide-small"> <i class="fa fa-photo w3-margin-right"></i>Photos</a>
+                <a href="#" class="w3-button w3-white w3-hide-small"> <i class="fa fa-map-pin w3-margin-right"></i>Art</a>
+                <hr class="w3-grey" style="height: 5px;">
+            </div>
+            
+            <div class="w3-row-padding">
+                <div class="w3-col l4 m4 w3-margin-bottom">
+                    <div class="w3-card-4">
+                        <img src="../image/172.jpg" class="w3-hover-opacity" alt="fygiu" style="width: 100%;">
+                        <div class="w3-container">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="w3-col l4 m4 w3-margin-bottom">
+                    <div class="w3-card-4">
+                        <img src="../image/173.jpg" class="w3-hover-opacity"  alt="fygiu" style="width: 100%;">
+                        <div class="w3-container">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="w3-col l4 m4 w3-margin-bottom">
+                    <div class="w3-card-4">
+                        <img src="../image/174.jpg" class="w3-hover-opacity"  alt="fygiu" style="width: 100%;">
+                        <div class="w3-container">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-row-padding">
+                <div class="w3-col l4 m4 w3-margin-bottom">
+                    <div class="w3-card-4">
+                        <img src="../image/175.jpg" class="w3-hover-opacity" alt="fygiu" style="width: 100%;">
+                        <div class="w3-container">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="w3-col l4 m4 w3-margin-bottom">
+                    <div class="w3-card-4">
+                        <img src="../image/176.jpg" class="w3-hover-opacity"  alt="fygiu" style="width: 100%;">
+                        <div class="w3-container">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="w3-col l4 m4 w3-margin-bottom">
+                    <div class="w3-card-4">
+                        <img src="../image/177.jpg" class="w3-hover-opacity"  alt="fygiu" style="width: 100%;">
+                        <div class="w3-container">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-bar w3-center " style="margin-top: 50px;margin-bottom: 50px;">
+                <a href="#" class="w3-button w3-hover-black">&laquo;</a>
+                <a href="#" class="w3-button w3-black">1</a>
+                <a href="#" class="w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-button w3-hover-black">&raquo;</a>
+            </div>
+            <div class="w3-row-padding" id="b">    
+                <div class="w3-col l6 m6 w3-margin-bottom">
+                    <img src="../image/178.jpg" alt="fgay" width="100%">
+                </div>
+                <div class="w3-col l6 m6 w3-margin-bottom">
+                    <img src="../image/179.jpg" alt="fgay" width="100%">
+                </div>
+            </div>
+            <div class="w3-container"  style="margin-top: 50px;">
+                <h3>About Me</h3>
+                <p  class="w3-justify">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p class="w3-large w3-opacity" style="margin-top: 50px;">Technical Skills</p>
+                <p class="w3-opacity">Photography</p>
+                <div class="w3-section w3-grey">
+                    <div class="w3-container w3-padding w3-dark-grey w3-center" style="width:95%">95%</div>
+                </div>
+                <p class="w3-opacity">Web Design</p>
+                <div class="w3-section w3-grey">
+                    <div class="w3-container w3-padding w3-dark-grey w3-center" style="width:85%">85%</div>
+                </div>
+                <p class="w3-opacity">Photoshop</p>
+                <div class="w3-section w3-grey">
+                    <div class="w3-container w3-padding w3-dark-grey w3-center" style="width:80%">80%</div>
+                </div>
+                <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+                    <i class="fa fa-download w3-margin-right"></i>Download Resume
+                </button>
+                <p class="w3-large w3-opacity" style="margin-top: 50px;">How much I charge</p>
+            </div>
+            <div class="w3-row-padding">
+                <div class="w3-col l4 m4 w3-margin-bottom">
+                    <div class="w3-opacity w3-hover-opacity-off">
+                        <div class="w3-center w3-border-left w3-border-right w3-border-bottom">
+                            <div class="w3-black" style="margin-top: 0%;">
+                                <h1 style="padding: 25px 0;">Basic</h1>
+                            </div>
+                            <p >Web Design</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <p >Photography</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <p >1GB Storage</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <p >Mail Support</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <h1>$ 10</h1>
+                            <p class="w3-opacity">per month</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <button class="w3-button w3-teal w3-padding-large w3-margin-bottom" >Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col l4 m4 w3-margin-bottom">
+                    <div class="w3-opacity w3-hover-opacity-off">
+                        <div class="w3-center w3-border-left w3-border-right w3-border-bottom">
+                            <div class="w3-teal" style="margin-top: 0%;">
+                                <h1 style="padding: 25px 0;">Basic</h1>
+                            </div>
+                            <p >Web Design</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <p >Photography</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <p >50GB Storage</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <p >Endless Support</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <h1>$ 25</h1>
+                            <p class="w3-opacity">per month</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <button class="w3-button w3-teal w3-margin-bottom w3-padding-large" >Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col l4 m4 w3-margin-bottom">
+                    <div class="w3-opacity w3-hover-opacity-off">
+                        <div class="w3-center w3-border-left w3-border-right w3-border-bottom">
+                            <div class="w3-black" style="margin-top: 0%;">
+                                <h1 style="padding: 25px 0;">Basic</h1>
+                            </div>
+                            <p >Web Design</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <p >Photography</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <p >Unlimited Storage</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <p >Endless Support</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <h1>$ 25</h1>
+                            <p class="w3-opacity">per month</p>
+                            <hr class="w3-grey" style="height: 1px;">
+                            <button class="w3-button w3-teal w3-padding-large w3-margin-bottom" >Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w3-grey">
+                <div class="w3-container" style="margin-top: 50px;">
+                    <h3 id="c">Contact Me</h3>
+                    <div class="w3-row">
+                        <div class="w3-col l4 m4">
+                            <div class="w3-dark-grey w3-center w3-padding-small">
+                                <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                                <p>sinafx2000@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="w3-col l4 m4">
+                            <div class="w3-teal w3-center w3-padding-small">
+                                <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                                <p>Chicago, US</p>
+                            </div>
+                        </div>
+                        <div class="w3-col l4 m4">
+                            <div class="w3-dark-grey w3-center w3-padding-small">
+                                <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                                <p>512312311</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="#">
+                        <hr class="w3-light-grey" style="height: 1px;">
+                        <p style="margin-bottom: -2px;">Name</p>
+                        <input type="text" class="w3-input w3-light-grey" required>
+                        <p style="margin-bottom: -2px;"> Email</p>
+                        <input type="text" class="w3-input w3-light-grey" required>
+                        <p style="margin-bottom: -2px;">Message</p>
+                        <input type="text" class="w3-input w3-light-grey" required>
+                        <button type="submit" class="w3-button w3-black w3-margin-bottom" style="margin-top: 20px;"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+                    </form>
+                </div>
+
+
+                <div class="w3-row-padding w3-dark-grey" style="margin-top: 50px;">
+                    <div class="w3-col l4 m4 w3-margin-bottom  w3-padding">
+                        <h3>FOOTER</h3>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+        
+                    <div class="w3-col l4 m4 w3-margin-bottom  w3-padding">
+                        <h3>BLOG POSTS</h3>
+                        <ul class="w3-ul">
+                            <li class="w3-bar w3-hover-light-grey">
+                              <img src="../image/1110.jpg" alt="fq" class="w3-bar-item" style="width: 75px;">
+                              <div class="w3-bar-item">
+                                <span class="w3-xlarge">Lorem</span><br>
+                                <span>Sed mattis nunc</span>
+                              </div>
+                            </li>
+                            <li class="w3-bar w3-hover-light-grey">
+                                <img src="../image/1111.jpg" alt="fq" class="w3-bar-item" style="width: 75px;">
+                                <div class="w3-bar-item">
+                                  <span class="w3-xlarge">Lorem</span><br>
+                                  <span>Sed mattis nunc</span>
+                                </div>
+                              </li>
+                        </ul>
+                    </div>
+        
+                    <div class="w3-col l4 m4 w3-margin-bottom ">
+                        <div class=" w3-padding  w3-small">
+                            <h3> POPULAR TAGS</h3>
+                            <span class="w3-tag" style="margin: 10px 0;">Travel</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">New York</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;"> London</span>              
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">IKEA</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">NORWAY</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">DIY</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">Ideas</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">Baby</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">Family</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">News</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">Clothing</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">Shopping</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">Sports</span>
+                            <span class="w3-tag w3-grey"style="margin: 10px 0;">Games</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-panel w3-black w3-center"  style="padding: 25px 0;margin: 0%;">
+                <p>Powered by <span class="w3-text-red ">Sina naseri</span></p>
+            </div>
+        </div>
+    </div>    
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+     
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+

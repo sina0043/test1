@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript"/>
+    <meta name="description" content="Free Web tutorials"/>
+    <meta name="author" content="sina naseri"/>
+    <meta http-equiv="refresh" content="30000"/>
+    <title>Page title</title>
+    <link rel="icon" type="image/x-icon" href="../image/avatar_smoke.jpg"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="./w3.css">   
+</head>
+<body>
+    <div class="w3-row">
+            <div class="w3-col" >
+                <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+                    <div style="  background-position: center;background-repeat: no-repeat;background-size: cover;background-image: url('../image/181.jpg');min-height: 100%;"></div>
+                </nav>
+            </div>
+            <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="w3_open()"><i class="fa fa-bars"></i></span>            
+            <div class="w3-sidebar w3-black  w3-center w3-bar-block  w3-card  w3-animate-right" style="width:60%;right:0; display: none;"  id="mySidebar">
+                <button class="w3-button  w3-right w3-xxlarge w3-display-topright" style="font-weight: bolder;" onclick="w3_close()"> <i class="fa fa-remove"></i> </button>
+                <a href="#" class="w3-button w3-bar-item w3-xxlarge w3-text-grey w3-hover-none w3-hover-text-white" style="padding-top: 200px;">About</a>
+                <a href="#" class="w3-button w3-bar-item w3-xxlarge w3-text-grey w3-hover-none w3-hover-text-white">Portfolio</a>
+                <a href="#" class="w3-button w3-bar-item w3-xxlarge w3-text-grey w3-hover-none w3-hover-text-white">About</a>
+                <a href="#" class="w3-button w3-bar-item w3-xxlarge w3-text-grey w3-hover-none w3-hover-text-white">Contact</a>
+            </div>
+            <div class="w3-main " style="margin-left: 40%;">
+                <div class="w3-center ">
+                    <p class="w3-jumbo " style="margin-top: 200px;">Jane Doe</p>
+                    <p style="margin-top: -60px;">Photographer and Web Designer.</p>
+                    <img  src="./image/181.jpg" alt="fhdsjk" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;" >
+                    <img  src="./image/181.jpg" alt="fhdsjgk" class="w3-image w3-hide-large w3-hide-medium w3-round" style="display:block;width:80%;margin:auto;" >
+                    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top"><i class="fa fa-download"></i> Download Resume</button>
+                </div>
+                <div class=" w3-container" style="margin-top: 50px;">
+                    <h3 class="w3-opacity"> My Portfolio </h3>
+                    <hr>
+                    <div class="w3-row-padding">
+                        <div class="w3-col l6 w3-margin-bottom">
+                            <img src="../image/182.jpg" alt="avfs" class="w3-margin-bottom" style="width: 100%;">
+                            <img src="../image/183.jpg" alt="avfs" class="w3-margin-bottom" style="width: 100%;">
+                            <img src="../image/184.jpg" alt="avfs" class="w3-margin-bottom" style="width: 100%;">
+                        </div>
+                        <div class="w3-col l6 w3-margin-bottom">
+                            <img src="../image/185.jpg" alt="avfs" class="w3-margin-bottom" style="width: 100%;">
+                            <img src="../image/186.jpg" alt="avfs" class="w3-margin-bottom" style="width: 100%;">
+                            <img src="../image/187.jpg" alt="avfs" class="w3-margin-bottom" style="width: 100%;">
+                            <img src="../image/188.jpg" alt="avfs" class="w3-margin-bottom" style="width: 100%;">
+                        </div>
+                    </div>
+                    <h1 class="w3-opacity"> About </h1>
+                    <hr>
+                    <p class="w3-opacity">Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3 class="w3-opacity" style="margin-top: 50px;"> My Skills </h3>
+                    <hr>
+                    <p class="w3-wide w3-opacity">Photography</p>
+                    <div class="w3-section w3-light-grey">
+                        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
+                    </div>
+                    <p class="w3-wide w3-opacity">Web Design</p>
+                    <div class="w3-section w3-light-grey">
+                        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+                    </div>
+
+                    <p class="w3-wide w3-opacity">Photoshop</p>
+                    <div class="w3-section w3-light-grey">
+                        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+                    </div>
+                    <div class="w3-dark-grey" style="margin-top: 50px;">
+                        <div class="w3-row">
+                            <div class="w3-col l3 m3">
+                                <div class="w3-center w3-padding-16">
+                                    <span class="w3-xlarge">14+ <br> <span class="w3-medium"> Partners </span></span>
+                                </div>
+                            </div>
+                            <div class="w3-col l3 m3">
+                                <div class="w3-center w3-padding-16">
+                                    <span class="w3-xlarge">55+ <br> <span class="w3-medium"> Projects Done </span></span>
+                                </div>
+                            </div>
+                            <div class="w3-col l3 m3">
+                                <div class="w3-center w3-padding-16">
+                                    <span class="w3-xlarge">89+ <br> <span class="w3-medium"> Happy Clients </span></span>
+                                </div>
+                            </div>
+                            <div class="w3-col l3 m3">
+                                <div class="w3-center w3-padding-16">
+                                    <span class="w3-xlarge">150+ <br> <span class="w3-medium"> Meetings </span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="w3-button w3-light-grey w3-padding-large" style="margin-top: 25px;"><i class="fa fa-download"></i> Download Resume</button>
+                    <h3 class="w3-opacity" style="margin-top: 50px;">My Reputation </h3>
+                    <hr>
+                    <img class="w3-left w3-circle w3-margin-right" style="width:80px" src="../image/189.jpg" alt="tyufik">
+                    <p  class="w3-opacity"><span class="w3-large w3-text-black w3-margin-right">Chandler Bing.</span> Web Designer.</p>
+                    <p  class="w3-opacity">Jane Doe is just awesome. I am so happy to have met her!</p><br>
+                    <img class="w3-left w3-circle w3-margin-right" style="width:80px" src="../image/1810.jpg" alt="tyufik">
+                    <p  class="w3-opacity"><span class="w3-large w3-text-black w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+                    <p  class="w3-opacity">Jane Doe saved us from a web disaster.</p><br>
+                    <img class="w3-left w3-circle w3-margin-right" style="width:80px" src="../image/1811.jpg" alt="tyufik">
+                    <p  class="w3-opacity"><span class="w3-large w3-text-black w3-margin-right">Rebecca Flex.</span>  CEO at Company.</p>
+                    <p  class="w3-opacity">No one is better than Jane Doe.</p><br>
+                    <h3 class="w3-opacity" style="margin-top: 50px;">My Price </h3>
+                    <hr>
+                    <div class="w3-row-padding w3-stretch">
+                        <div class="w3-col l6 m6 w3-margin-bottom">
+                            <div class="w3-center w3-border w3-hover-shadow">
+                                <h2 class="w3-dark-grey w3-padding-32" style="margin-top: 0%;">Basic</h2>
+                                <p class="w3-opacity">Web Design</p>
+                                <hr>
+                                <p class="w3-opacity">Photography</p>
+                                <hr>
+                                <p class="w3-opacity">5GB Storage</p>
+                                <hr>
+                                <p class="w3-opacity">Mail Support</p>
+                                <hr>
+                                <h1 class="w3-opacity">$ 10</h1>
+                                <p class="w3-opacity">per month</p>
+                                <p class="w3-light-grey w3-padding-16" style="margin-bottom: 0%;"><button class="w3-button w3-padding-large w3-white">Sign Up</button></p>
+                            </div>
+                        </div>
+                        <div class="w3-col l6 m6 w3-margin-bottom">
+                            <div class="w3-center w3-border w3-hover-shadow">
+                                <h2 class="w3-black w3-padding-32" style="margin-top: 0%;">Pro</h2>
+                                <p class="w3-opacity">Web Design</p>
+                                <hr>
+                                <p class="w3-opacity">Photography</p>
+                                <hr>
+                                <p class="w3-opacity">50GB Storage</p>
+                                <hr>
+                                <p class="w3-opacity">Endless Support</p>
+                                <hr>
+                                <h1 class="w3-opacity">$ 25</h1>
+                                <p class="w3-opacity">per month</p>
+                                <p class="w3-light-grey w3-padding-16" style="margin-bottom: 0%;"><button class="w3-button w3-padding-large w3-white">Sign Up</button></p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="w3-opacity" style="margin-top: 50px;">Contact Me </h3>
+                    <hr>
+                    <p class="w3-opacity"><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+                    <p class="w3-opacity"><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+                    <p class="w3-opacity"><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: sinafx2000@gmail.com.com</p>
+                    <img src="../image/1812.jpg" alt="fgudjkl" style="width: 100%;">
+                    <p class="w3-opacity" style="margin-top: 50px;">Lets get in touch. Send me a message:</p>
+                    <form action="#">
+                        <input type="text" placeholder="Name" class="w3-input w3-border w3-padding-16 w3-margin-bottom" >
+                        <input type="text" placeholder="Email" class="w3-input w3-border w3-padding-16 w3-margin-bottom" >
+                        <input type="text" placeholder="Subject" class="w3-input w3-border w3-padding-16 w3-margin-bottom" >
+                        <input type="text" placeholder="Message" class="w3-input w3-border w3-padding-16 w3-margin-bottom" >
+                        <button type="submit" class="w3-button w3-light-grey w3-padding-large w3-margin-top"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button>
+                    </form>
+                </div>  
+                <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px;margin-top: 50px;">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-snapchat w3-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                    <i class="fa fa-twitter w3-hover-opacity"></i>
+                    <i class="fa fa-linkedin w3-hover-opacity"></i>
+                    <p class="w3-medium">Powered by <span class="w3-hover-text-green">Sina Naseri</span></p>
+                  </footer>        
+            </div> 
+        </div>    
+
+
+
+
+
+    <script>
+        function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+          document.getElementById("main").style.display = "none";
+        }
+        
+        function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+          document.getElementById("main").style.display = "block";
+        }
+    </script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
